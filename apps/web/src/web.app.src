@@ -1,6 +1,6 @@
 {application, web,
  [
-  {description, "SKY VXZ Skyline N2O Demo"},
+  {description, "N2O Bootstrap"},
   {vsn, "1"},
   {registered, []},
   {applications, [kernel, stdlib, xmerl, erlydtl, cowboy, n2o, kvs]},
