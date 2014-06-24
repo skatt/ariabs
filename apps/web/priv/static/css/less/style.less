@@ -1,0 +1,30 @@
+@import "../../bootstrap/less/bootstrap.less";
+@import "../../jasny-bootstrap/less/jasny-bootstrap.less";
+@import "../../font-awesome/less/font-awesome.less";
+
+html, body {
+	height: 100%;
+}
+
+.page {
+    height: 100%; width: 100%;
+    &-fitted {
+        position: fixed;
+        top:0; left: 0; right: 0; bottom: 0;
+    }
+    &.no-scroll {
+        overflow: hidden;
+        &-x {
+            overflow-x: hidden;
+        }
+        &-y {
+            overflow-y: hidden;
+        }
+    }
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}

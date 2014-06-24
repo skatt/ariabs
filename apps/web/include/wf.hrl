@@ -2,6 +2,7 @@
 -define(N2O_BOOTSTRAP_HRL, true).
 
 -include("../../../deps/n2o/include/wf.hrl").
+-include("records.hrl").
 
 % emulate msg ! socket through wire
 -define(WS_SEND(Id,Ev,Detail), wf:wire(wf:f("document.getElementById('~s').dispatchEvent("
