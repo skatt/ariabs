@@ -1,6 +1,6 @@
--record(header, {?ELEMENT_BASE(element_header)}).
--record(nav, {?ELEMENT_BASE(element_nav)}).
--record(footer, {?ELEMENT_BASE(element_footer)}).
+%-record(header, {?ELEMENT_BASE(element_header)}).
+%-record(nav, {?ELEMENT_BASE(element_nav)}).
+%-record(footer, {?ELEMENT_BASE(element_footer)}).
 
 
 -record(page, {?ELEMENT_BASE(element_page), mode, scroll=true}).
