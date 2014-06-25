@@ -1,8 +1,7 @@
-N2O Bootstrap - WAI-ARIA: Sample Web Document
+Aria Bootstrap for N2O
 =============================================
 
-Still a WIP...
-This is an N2O site designed to simplify the use of Bootstrap 3 CSS, FontAwesome, and WAI-ARIA standards.
+This is an N2O site designed to simplify the use of WAI-ARIA standards with responsive UI.
 Feel free to use it in your projects. It is provided as is in public domain.
 
 Prerequisites
