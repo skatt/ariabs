@@ -1,6 +1,6 @@
 {application, web,
  [
-  {description, "N2O Bootstrap"},
+  {description, "N2O Aria Bootstrap"},
   {vsn, "1"},
   {registered, []},
   {applications, [kernel, stdlib, xmerl, erlydtl, cowboy, n2o, kvs]},
