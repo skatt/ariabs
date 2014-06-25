@@ -1,11 +1,9 @@
-Skyline: N2O Sample Website
-===========================
+N2O Bootstrap - WAI-ARIA: Sample Web Document
+=============================================
 
-Skyline was made with Nitrogen DSL and based on [N2O](https://github.com/5HT/n2o).
-It is a demo how to use N2O in real-life applications.
+Still a WIP...
+This is an N2O site designed to simplify the use of Bootstrap 3 CSS, FontAwesome, and WAI-ARIA standards.
 Feel free to use it in your projects. It is provided as is in public domain.
-
-![Login](http://synrc.com/lj/N2O+Bootstrap.png)
 
 Prerequisites
 =============
@@ -13,6 +11,27 @@ Prerequisites
 * Erlang R16: sudo apt-get install erlang
 * Rebar: https://github.com/rebar/rebar
 * iNotify Tools (Linux only): sudo apt-get install inotify-tools
+
+Setup
+-----
+
+From Terminal perform
+
+    ~ make
+
+Start Server
+------------
+
+From Terminal perform
+
+    ~ make start
+
+Open Console
+------------
+
+From Terminal perform
+
+    ~ make attach
 
 Init Database
 -------------
@@ -26,7 +45,8 @@ And open in browser [http://localhost:8000](http://localhost:8000)
 Credits
 -------
 
+* Scott Cowick
+
+Based on N2O Skyline:
 * Maxim Sokhatsky
 * Andrew Zadorozhny
-
-OM A HUM

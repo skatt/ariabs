@@ -7,8 +7,6 @@
 main() ->
   avz:callbacks(?METHODS),
   [ #dtl{file = "login",  ext="dtl",bindings=[{title,<<"Login">>},
-                                              {header,index:header()},
-                                              {footer,index:footer()},
                                               {sdk,avz:sdk(?METHODS)},
                                               {buttons,avz:buttons(?METHODS)}]} ].
 
