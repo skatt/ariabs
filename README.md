@@ -46,3 +46,7 @@ Credits
 -------
 
 * Scott Cowick
+
+Based on N2O Skyline:
+* Maxim Sokhatsky
+* Andrew Zadorozhny

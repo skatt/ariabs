@@ -4,13 +4,10 @@
 
 log_modules() -> [index,login,chat].
 
-main() -> [ #dtl{file = "prod", ext="dtl", bindings=[{title,title()},{body,body()}]} ].
+main() ->  [ #dtl{file = wf:cache(mode), ext="dtl", bindings=[{title,<<"Index">>},{body,body()}]} ].
 
-title() -> "N2O - Bootstrap".
-body() ->
-[
-  #panel{body="Maybe that worked...."}
-].
+body() -> #panel{style="font-size:38pt;height:200px;text-align: center;margin-top:200px;",
+                body="Hello, N2O!"}.
 
 api_event(Name,Tag,Term) -> error_logger:info_msg("Index Name ~p, Tag ~p, Term ~p",[Name,Tag,Term]), event(change_me).
 event({counter,C}) -> wf:update(onlinenumber,wf:to_list(C));

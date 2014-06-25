@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <title>{{title}}</title>
+  <meta name="author" content="N2O">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/static/images/favicon.ico" rel="shortcut icon" >
-  <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="/static/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body class="theme-pattern-45-degree-fabric">
     <div id="content" class="theme-pattern-lightmesh alt">
@@ -64,5 +65,6 @@
     <script src="/static/js/all.min.js"></script>
     <div id="n2ostatus" style="display:none"></div>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jasny-bootstrap.min.js"></script>
 </body>
 </html>

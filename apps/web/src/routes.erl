@@ -17,8 +17,6 @@ route_prefix(P) -> route(P).
 route(<<>>)              -> index;
 route(<<"index">>)       -> index;
 route(<<"login">>)       -> login;
-route(<<"navbar">>)       -> navbar;
 route(<<"account">>)     -> account;
-route(<<"chat">>)        -> chat;
 route(<<"favicon.ico">>) -> static_file;
 route(_)                 -> index.
