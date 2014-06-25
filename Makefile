@@ -1,4 +1,4 @@
-RELEASE := bootstrap
+RELEASE := ariabs
 COOKIE  := node_runner
 VER     := 1.0.0
 FILES   := apps/web/priv/static/n2o
